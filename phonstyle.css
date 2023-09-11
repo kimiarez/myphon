@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    direction: rtl;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    direction: rtl;
+    background-color: #4333ad;
+    background-image: url(images/wave.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 90vh;
+}
+
+
+.sazman {
+    display: flex;
+    flex-direction: column;
+    direction: ltr;
+    color: #fff;
+    font-family: Nazanin;
+}
+
+
+@font-face {
+    font-family: 'Nazanin';
+    src: url('fontss/BTitrBd.ttf') format('ttf');
+}
+
+#sazman-1 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#sazman-2 {
+    margin-top: 1.5em;
+    font-size: xx-large;
+    font-weight: 550;
+}
+
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    max-width: 300px;
+    width: 100%;
+    height: 350px;
+    /* background-color: #58521b; */
+    /* background-color: #7e783d; */
+    background-color: #fff;
+    box-shadow:  7px 7px 10px  #a09959;
+    border-radius: 18px;
+    /* box-shadow: 5px 5px 20px yellow; */
+}
+
+
+.addInfo {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.texts {
+    padding: 0.5em;
+    background-color: #ecf2b7;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    font-family: Nazanin;
+    font-weight: 900;
+    border: 1px solid #cfd59e;
+}
+
+label {
+    margin-top: 1.2em;
+    font-family: Nazanin;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(83, 97, 26);
+}
+
+
+.search {
+    border: none;
+    margin-top: 1em;
+    margin: auto;
+    padding: 0.4em 0.8em;
+    color: #fff;
+    font-family: Nazanin;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #c19722;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.texts:focus {
+    outline: 2px solid #545f1f;
+}
+
+
+.search:hover {
+    background: rgb(238, 154, 57);
+    background: linear-gradient(7deg, rgb(230, 177, 34) 0%, #c8a33e 100%); 
+    width: 90px;
+}
+
+
+
+.logo {
+    width: 110px;
+    height: 50px;
+
+}
+
+@media screen and (max-width:370px) {
+    .texts{
+        background-color: #fff;
+    }
+}

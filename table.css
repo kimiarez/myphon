@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    background-color: #dad89b;
+    
+
+}
+.head{
+    font-size: 25px;
+    color: rgb(66, 71, 25);
+    margin-top: 2em;
+    font-weight: 900;
+}
+
+
+
+
+.main {
+    display: flex;
+    max-width: 750px;
+    width: 100%;
+    margin: auto;
+    margin-top: 4em;
+    
+}
+
+th,
+td {
+    padding: 0.6em;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+thead {
+    background-color: #544733;
+    color: #f3eea8;
+
+
+}
+#thin{
+    width: 3em;
+}
+
+
+
+.result {
+
+    border-collapse: collapse;
+    text-align: right;
+    width: 80%;
+    margin: auto;
+    background-color: #f0eeba;
+
+
+}

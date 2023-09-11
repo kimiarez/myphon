@@ -1,0 +1,14 @@
+CREATE TABLE `users` (
+    `id` INT(6) NOT NULL,
+    `firstname` VARCHAR(150) NOT NULL,
+    `lastname` VARCHAR(150) NOT NULL,
+    `unit` VARCHAR(250) NOT NULL,
+    `phone` INT(11) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_persian_ci;
+
+ALTER TABLE `users`
+ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `users`
+MODIFY `id` INT(11) NOT NULL AUTO_INCREMENT;
+COMMIT;

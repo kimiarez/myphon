@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+
+
+.insert {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid rgb(219, 224, 226);
+    margin: auto;
+    margin-top: 6em;
+    border-radius: 5px;
+}
+
+#header {
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+.line {
+    width: 97%;
+    margin: auto;
+    height: 1px;
+    background-color: rgb(219, 224, 226);
+    margin-top: 2em;
+}
+
+.form{
+    width: 90%;
+    margin: auto;
+}
+
+label {
+    display: block;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.fname,
+.lname {
+    width: 50%;
+}
+
+input[type=text] {
+    width:99%;
+    padding: 0.7em;
+    margin-top: 0.5em;
+    border: none;
+    background-color: rgb(243 243 243);
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 225);
+
+}
+
+
+input[type=email] ,
+input[type=tel] {
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 0.5em;
+    border: none;
+    background-color: rgb(243 243 243);
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 225);
+
+
+}
+
+.email ,
+.phone{
+    margin-top: 2em;
+}
+
+.address{
+    margin-top: 2em;
+}
+
+.writing{
+    width: 40%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    background-color:rgb(243 243 243) ;
+    border: none;
+    border: 1px solid rgb(219, 219, 225);
+}
+
+
+.sabt{
+    margin-top: 1em;
+    padding: 0.7em;
+    border-radius: 5px;
+    background-color: rgb(190, 218, 51);
+    color: black;
+    border: none;
+    font-weight: 600;
+    margin-bottom: 2em;
+    cursor: pointer;
+
+}
+
+input:focus{
+    outline: 3px solid rgb(136, 131, 131);
+
+
+}

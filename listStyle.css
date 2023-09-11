@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    direction: rtl;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(219, 224, 226);
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 4px;
+}
+
+.adduser{
+    padding: 0.6em;
+    background-color: rgb(65, 110, 181);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2em;
+    margin-right: 4em;
+    cursor: pointer;
+}
+
+th,td{
+    border: 1px solid rgb(199 199 214);
+    padding: 0.3em;
+    
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
+
+thead{
+    background-color: white;
+}
+
+
+
+#mytable{
+    
+    border-collapse: collapse;
+    text-align: right;
+    max-width: 1300px;
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    background-color: rgb(238 239 239);
+
+}
+
+.small{
+    width:4% ;
+    text-align: center;
+}
+
+.edit,
+.delet{
+    border: none;
+    font-size: 20px;
+}
+
+.fa-pencil-square{
+    color: rgb(76, 189, 76);
+    cursor: pointer;
+}
+
+.fa-trash{
+    color: rgb(223, 64, 64);
+    cursor: pointer;
+}
